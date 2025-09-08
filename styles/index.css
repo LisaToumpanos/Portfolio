@@ -1,0 +1,27 @@
+@import url("communs.css");
+
+
+nav {
+  background: #f4f4f4;
+  padding: 2px;
+}
+
+nav ul {
+  list-style: none;           /* enlève les puces */
+  display: flex;              /* met les <li> en ligne */
+  justify-content: center;    /* centre la barre */
+  gap: 30px;                  /* espace entre les éléments */
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: crimson;             /* effet au survol */
+}
