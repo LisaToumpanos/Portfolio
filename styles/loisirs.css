@@ -8,8 +8,6 @@ body {
   background-size: cover;
   background-attachment: fixed;
   min-height: 100vh;
-
   color: white;              /* ✅ rend tout le texte blanc */
-  font-family: Arial, sans-serif;
   text-align: center;
 }

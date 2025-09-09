@@ -22,3 +22,8 @@ nav a {
 nav a:hover {
   color: crimson;             /* effet au survol */
 }
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 15px; /* taille de base */
+}
