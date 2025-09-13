@@ -4,10 +4,10 @@ section{
 }
 
 body {
-  background-image: url('../etoile.gif');
+  background-image: url('../loisirs.jpeg');
   background-size: cover;
   background-attachment: fixed;
   min-height: 100vh;
-  color: white;              /* ✅ rend tout le texte blanc */
+  color: white;
   text-align: center;
 }

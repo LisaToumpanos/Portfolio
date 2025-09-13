@@ -1,4 +1,5 @@
 body {
+    background: radial-gradient(circle, #1e90ff 0%, #000033 100%);
     text-align: left;
     margin-left: auto;
     margin-right: auto;
