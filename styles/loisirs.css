@@ -9,5 +9,9 @@ body {
   background-attachment: fixed;
   min-height: 100vh;
   color: white;
-  text-align: center;
+  text-align: left;
+}
+
+h1{
+    text-align: center;
 }
