@@ -4,10 +4,10 @@ nav {
 }
 
 nav ul {
-  list-style: none;           /* enlève les puces */
-  display: flex;              /* met les <li> en ligne */
-  justify-content: center;    /* centre la barre */
-  gap: 30px;                  /* espace entre les éléments */
+  list-style: none;           
+  display: flex;              
+  justify-content: center;    
+  gap: 30px;                  
   margin: 0;
   padding: 0;
 }
@@ -20,10 +20,10 @@ nav a {
 }
 
 nav a:hover {
-  color: crimson;             /* effet au survol */
+  color: crimson;             
 }
 
 body {
   font-family: Arial, sans-serif;
-  font-size: 15px; /* taille de base */
+  font-size: 15px;
 }
