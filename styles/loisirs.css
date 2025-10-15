@@ -4,7 +4,7 @@ section{
 }
 
 body {
-  background-image: url('../loisirs.jpeg');
+  background-image: url('../images/loisirs.jpeg');
   background-size: cover;
   background-attachment: fixed;
   min-height: 100vh;
