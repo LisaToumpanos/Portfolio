@@ -20,3 +20,26 @@ a {
   text-decoration: underline;
   color : white;
 }
+
+#extra {
+	display : none;
+}
+
+#hideBtn {
+	display : none;
+}
+
+#btn {
+	margin-top : 5px;
+}
+
+button {
+	background : none;
+	border : none;
+	color : inherit;
+	font : inherit;
+	padding : 0;
+	cursor : pointer;
+	text-decoration : underline;
+	text-align : right;
+}
