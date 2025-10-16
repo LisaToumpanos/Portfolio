@@ -25,6 +25,15 @@ a {
 	display : none;
 }
 
+#TokyoRevenger {
+	display : none;
+}
+
+#cacher {
+	margin-top : 5px;
+	margin-bottom : 7px;
+}
+
 #hideBtn {
 	display : none;
 }
