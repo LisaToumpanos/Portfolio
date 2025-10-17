@@ -37,3 +37,8 @@ img {
     margin-right: 4rem;
     margin-bottom: 1rem;
 }
+
+abbr {
+	text-decoration : none;
+	border-bottom : none;
+}
