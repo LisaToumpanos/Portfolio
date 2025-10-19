@@ -26,3 +26,62 @@ abbr {
 	text-decoration : none;
 	border-bottom : none;
 }
+
+.bénévolat {
+  text-decoration: underline dotted #777;
+  cursor: pointer;
+}
+
+.tooltip-btn h1 {
+  text-align : center;
+  cursor: pointer;
+}
+.tooltip-btn h1:hover {
+  color: white;
+}
+
+.tooltip {
+  position: absolute;
+  background: #fff;
+  color: #000;
+  padding: 20px 30px 10px 30px ;
+  border-radius: 18px;
+  max-width: 400px;
+  font-size: 16px;
+  line-height: 1.4;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transform: scale(0.95);
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  z-index: 1000;
+}
+
+.tooltip.show {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: auto;
+}
+
+/* Petite flèche */
+.tooltip::after {
+  content: "";
+  position: absolute;
+  left: 30px; /* décale la flèche vers la droite */
+  bottom: -10px;
+  border-width: 10px 10px 0 10px;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+}
+
+.tooltip ul {
+  padding-left: 20px;
+  margin: 0;
+  margin-bottom : 0;
+  padding-bottom: 0; 
+}
+.tooltip li {
+  margin-bottom: 2px;
+  padding-bottom: 0; 
+}
+
