@@ -22,11 +22,6 @@ nav ul {
 	cursor : pointer;
 }
 
-abbr {
-	text-decoration : none;
-	border-bottom : none;
-}
-
 .bénévolat {
   text-decoration: underline dotted #777;
   cursor: pointer;
