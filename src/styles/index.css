@@ -23,4 +23,7 @@ nav a:hover {
   color: crimson;             
 }
 
+a.actuel {
+	color: #336699;
+}
 
