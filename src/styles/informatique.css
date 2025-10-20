@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+}
+
+section{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+body {
+    background: radial-gradient(circle, #1e90ff 0%, #000033 150%);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+#informatique {
+	text-align: left;
+}
+
+#informatique li{
+	margin-bottom: 10px;
+}
+
+a {
+  text-decoration: underline;
+  color: black;
+}
+
+.autodidacte {
+	display: flex;
+	align-items:center;
+	gap:10px;
+}
+
+.accolade {
+	font-size: 30px;
+	line-height: 1;
+	transform: scaleY(1.75) translateY(-5px);
+}
+
+.def {
+	font-style: italic;
+	position: relative;
+	top: -5px;
+}
