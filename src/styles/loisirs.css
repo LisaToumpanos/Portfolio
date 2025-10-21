@@ -52,3 +52,47 @@ button {
 	text-decoration : underline;
 	text-align : right;
 }
+
+img {
+    height: 11rem;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+img:active { 				/* quand on clique*/
+    transform: scale(1.8);
+    z-index: 10;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  width: 80%;
+  margin: 30px auto;
+  justify-items: center;
+  align-items: center;  
+}
+
+.gallery img {
+    height: 9.5rem;
+    margin-bottom: 1rem;
+}
+
+#photos {
+  display: none;
+  opacity: 0;
+  transform: scale(1);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+#photos.show {
+  display: block;
+  opacity: 1;
+  transform: scale(1);
+}
+
+

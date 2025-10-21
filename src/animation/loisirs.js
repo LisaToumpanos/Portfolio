@@ -6,6 +6,9 @@ const extra = document.getElementById('extra');
 const resumeBtn = document.getElementById('resumeBtn');
 const TokyoRevenger = document.getElementById('TokyoRevenger');
 const cacher = document.getElementById('cacher');
+const bouton = document.getElementById('gallerie');
+const photos = document.getElementById('photos');
+
 
 hideBtn.style.display ="none";
 
@@ -33,3 +36,14 @@ cacher.addEventListener('click',() => {
 	cacher.style.display ="none";
 	resumeBtn.style.display ="inline-block";
 })
+
+
+bouton.addEventListener('click', () => {
+  photos.classList.toggle('show');
+
+  if (photos.classList.contains('show')) {
+    bouton.textContent = "Masquer";
+  } else {
+    bouton.textContent = "Voir la gallerie photo";
+  }
+});
