@@ -82,6 +82,10 @@ img:active { 				/* quand on clique*/
     margin-bottom: 1rem;
 }
 
+.gallery figure {
+  text-align: center;
+}
+
 #photos {
   display: none;
   opacity: 0;
