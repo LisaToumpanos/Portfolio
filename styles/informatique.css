@@ -44,7 +44,7 @@ a {
 .accolade {
 	font-size: 30px;
 	line-height: 1;
-	transform: scaleY(1.75) translateY(-5px);
+	transform: scaleY(1.75) translateY(-3px);
 }
 
 .def {
@@ -60,14 +60,16 @@ a {
   }
 
   .autodidacte {
-    flex-direction: column;    
-    align-items: center;
-    gap: 5px;
+    flex-direction: row;        
+    align-items: center;         
+    justify-content: left;     
+    gap: 6px;                    
   }
 
   .accolade {
-    font-size: 24px;           
-    transform: none;
+	font-size: 30px;
+	line-height: 1;
+	transform: scaleY(1.75) translateY(-3px);
   }
 
   .def {
