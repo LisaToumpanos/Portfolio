@@ -33,6 +33,7 @@ a {
 }
 
 img {
+float : right;
   display: block;
   margin: 0 auto 1rem auto;
   width: 180px;        
@@ -55,8 +56,16 @@ img {
     font-size: 18px;
   }
 
-  img {
+  #Moi img {
+    float: none;
+    display: block;
+    margin: 0 auto 1rem;
     width: 130px;
+  }
+
+  #Moi div {
+    float: none !important;
+    text-align: center;
   }
 
   li {
