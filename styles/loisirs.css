@@ -63,7 +63,7 @@ img {
     transition: transform 0.3s ease;
 }
 
-img:active { 				/* quand on clique*/
+img:active { 
     transform: scale(1.8);
     z-index: 10;
 }
@@ -110,4 +110,49 @@ tr:nth-of-type(2) td {
   padding-bottom: 40px;
 }
 
+/* Partie responsive */
+@media screen and (max-width: 768px) {
+  section {
+    margin: 0 5%;
+    line-height: 1.4;
+  }
 
+  h1 {
+    font-size: 22px;
+  }
+
+  img {
+    height: auto;
+    width: 100%;
+    max-width: 300px; 
+  }
+
+  .gallery {
+    width: 95%;
+    gap: 10px;
+  }
+
+  .gallery img {
+    height: auto;
+    width: 100%;
+  }
+
+  table {
+    width: 100%;
+    border-spacing: 10px;
+  }
+
+  tr:nth-of-type(2) td {
+    padding-bottom: 20px;
+  }
+
+  button {
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+  }
+
+  body {
+    background-attachment: scroll; 
+  }
+}

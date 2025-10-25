@@ -33,8 +33,44 @@ a {
 }
 
 img {
-    height: 9.5rem;
-    margin-right: 4rem;
-    margin-bottom: 1rem;
+  display: block;
+  margin: 0 auto 1rem auto;
+  width: 180px;        
+  height: auto;
+  border-radius: 50%; 
+  max-width: 80%;      
 }
 
+/* Partie responsive */
+@media screen and (max-width: 768px) {
+  section {
+    margin: 0 5%;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2, h3, h4 {
+    font-size: 18px;
+  }
+
+  img {
+    width: 130px;
+  }
+
+  li {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  #Diplômes dd {
+    margin-left: 0.5rem;
+    font-size: 15px;
+  }
+
+  #Moi p {
+    text-align: center;
+    font-size: 15px;
+  }
+}

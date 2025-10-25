@@ -52,3 +52,38 @@ a {
 	position: relative;
 	top: -5px;
 }
+
+/* Partie responsive */
+@media screen and (max-width: 768px) {
+  section {
+    margin: 0 5%;              
+  }
+
+  .autodidacte {
+    flex-direction: column;    
+    align-items: center;
+    gap: 5px;
+  }
+
+  .accolade {
+    font-size: 24px;           
+    transform: none;
+  }
+
+  .def {
+    top: 0;                    
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  body {
+    text-align: center;
+  }
+}

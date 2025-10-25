@@ -86,3 +86,35 @@ nav ul {
   padding-bottom: 0; 
 }
 
+/*Partie responsive */
+@media screen and (max-width: 768px) {
+  section {
+    margin: 0 5%;
+    line-height: 1.4;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  nav ul {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .tooltip {
+    position: static;            
+    max-width: 90%;
+    margin: 10px auto;
+    padding: 15px 20px;
+    font-size: 14px;
+  }
+
+  .tooltip::after {
+    display: none;               
+  }
+
+  .tooltip-btn h1 {
+    margin-bottom: 10px;
+  }
+}
