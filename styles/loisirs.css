@@ -134,6 +134,7 @@ tr:nth-of-type(2) td {
   .gallery {
     width: 95%;
     gap: 10px;
+    transform: none; 
   }
 
   .gallery img {
