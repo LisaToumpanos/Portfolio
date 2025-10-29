@@ -1,3 +1,10 @@
+body {
+    background: radial-gradient(circle, #1e90ff 0%, #000033 150%);
+    margin-left: auto;
+    margin-right: auto;
+	text-align: left;
+}
+
 h1{
     text-align: center;
 }
@@ -7,12 +14,6 @@ section{
     margin-left: 20%;
 }
 
-body {
-    background: radial-gradient(circle, #1e90ff 0%, #000033 150%);
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
 
 h3{
     text-align: center;
